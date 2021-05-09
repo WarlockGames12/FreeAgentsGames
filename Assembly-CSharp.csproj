@@ -56,10 +56,12 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\PlayerScript\JumpScript.cs" />
     <Compile Include="Assets\Scripts\MainMenuScripts\HoverPlayer.cs" />
+    <Compile Include="Assets\Scripts\PlayerScript\Camera_Follow.cs" />
     <Compile Include="Assets\Scripts\PlayerScript\Movement.cs" />
     <Compile Include="Assets\Scripts\MainMenuScripts\MainMenuScript.cs" />
-    <Compile Include="Assets\Scripts\PlayerScript\JumpScript.cs" />
+    <Compile Include="Assets\Scripts\LevelScripts\CoinScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

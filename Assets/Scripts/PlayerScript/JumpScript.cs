@@ -2,17 +2,35 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class JumpScript : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private Rigidbody rb;
+    public float jumpPower = 8;
+    public bool canJump = true;
+    public AudioSource JumpPlayer;
+
     void Start()
     {
-        
+        rb = gameObject.GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
+
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Space) && canJump == true)
+        {
+
+            JumpPlayer.Play();
+            rb.velocity = new Vector3(0, jumpPower, 0);
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        canJump = true;
+    }
+    private void OnCollisionExit(Collision collision)
+    {
+        canJump = false;
     }
 }

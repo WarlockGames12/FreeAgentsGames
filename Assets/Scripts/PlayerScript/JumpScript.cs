@@ -8,10 +8,13 @@ public class JumpScript : MonoBehaviour
     public float jumpPower = 8;
     public bool canJump = true;
     public AudioSource JumpPlayer;
+    public AudioSource LandPlayer;
+    
 
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody>();
+        
     }
 
 
@@ -22,15 +25,21 @@ public class JumpScript : MonoBehaviour
 
             JumpPlayer.Play();
             rb.velocity = new Vector3(0, jumpPower, 0);
+            
         }
     }
 
     private void OnCollisionEnter(Collision collision)
     {
         canJump = true;
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            LandPlayer.Play();
+        }
     }
     private void OnCollisionExit(Collision collision)
     {
         canJump = false;
     }
+    
 }

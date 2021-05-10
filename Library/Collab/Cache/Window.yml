@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/Animations.meta
+    - Assets/Animations/3DAnimations.meta
+    - Assets/Animations/3DAnimations/CoinAnimation.anim
+    - Assets/Animations/3DAnimations/CoinAnimation.anim.meta
+    - Assets/Animations/3DAnimations/Cylinder.controller
+    - Assets/Animations/3DAnimations/Cylinder.controller.meta
     - Assets/Prefabs.meta
     - Assets/Prefabs/MainMenu.prefab
     - Assets/Prefabs/MainMenu.prefab.meta
@@ -41,6 +47,8 @@ MonoBehaviour:
     - Assets/Scripts/PlayerScript/Movement.cs
     - Assets/Scripts/PlayerScript/Movement.cs.meta
     - Assets/SoundEffects.meta
+    - Assets/SoundEffects/86005__nextmaking__landing-on-the-ground.aiff
+    - Assets/SoundEffects/86005__nextmaking__landing-on-the-ground.aiff.meta
     - Assets/SoundEffects/Coin.wav
     - Assets/SoundEffects/Coin.wav.meta
     - Assets/SoundEffects/HoverButton.wav
@@ -49,8 +57,9 @@ MonoBehaviour:
     - Assets/SoundEffects/JumpPlayer.wav.meta
     - Assets/SoundEffects/PressButton.wav
     - Assets/SoundEffects/PressButton.wav.meta
+    - ProjectSettings/TagManager.asset
     - 
-    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

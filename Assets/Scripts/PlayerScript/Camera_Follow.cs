@@ -1,13 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Camera_Follow : MonoBehaviour
 {
-    public Transform Player;
+    public Transform target;
+    public float smoothSpeed = 0.125f;
+    public Vector3 offset;
 
-    void FixedUpdate()
+    void LateUpdate()
     {
-        transform.position = new Vector3(Player.position.x, Player.position.y, transform.position.z); //the camera will follow the player around :D
+        transform.position = target.position + offset;
     }
 }

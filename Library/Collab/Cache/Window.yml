@@ -20,6 +20,11 @@ MonoBehaviour:
     - Assets/Animations/3DAnimations/CoinAnimation.anim.meta
     - Assets/Animations/3DAnimations/Cylinder.controller
     - Assets/Animations/3DAnimations/Cylinder.controller.meta
+    - Assets/Fonts.meta
+    - Assets/Fonts/Itim-Regular.ttf
+    - Assets/Fonts/Itim-Regular.ttf.meta
+    - Assets/Fonts/OFL.txt
+    - Assets/Fonts/OFL.txt.meta
     - Assets/Prefabs.meta
     - Assets/Prefabs/MainMenu.prefab
     - Assets/Prefabs/MainMenu.prefab.meta
@@ -34,11 +39,17 @@ MonoBehaviour:
     - Assets/Scripts/LevelScripts.meta
     - Assets/Scripts/LevelScripts/CoinScript.cs
     - Assets/Scripts/LevelScripts/CoinScript.cs.meta
+    - Assets/Scripts/LevelScripts/RespawnScript.cs
+    - Assets/Scripts/LevelScripts/RespawnScript.cs.meta
     - Assets/Scripts/MainMenuScripts.meta
     - Assets/Scripts/MainMenuScripts/HoverPlayer.cs
     - Assets/Scripts/MainMenuScripts/HoverPlayer.cs.meta
     - Assets/Scripts/MainMenuScripts/MainMenuScript.cs
     - Assets/Scripts/MainMenuScripts/MainMenuScript.cs.meta
+    - Assets/Scripts/MainMenuScripts/PauseMenu.cs
+    - Assets/Scripts/MainMenuScripts/PauseMenu.cs.meta
+    - Assets/Scripts/MainMenuScripts/PauseMenuButtonsScript.cs
+    - Assets/Scripts/MainMenuScripts/PauseMenuButtonsScript.cs.meta
     - Assets/Scripts/PlayerScript.meta
     - Assets/Scripts/PlayerScript/Camera_Follow.cs
     - Assets/Scripts/PlayerScript/Camera_Follow.cs.meta
@@ -55,11 +66,13 @@ MonoBehaviour:
     - Assets/SoundEffects/HoverButton.wav.meta
     - Assets/SoundEffects/JumpPlayer.wav
     - Assets/SoundEffects/JumpPlayer.wav.meta
+    - Assets/SoundEffects/PlayerDeath.wav
+    - Assets/SoundEffects/PlayerDeath.wav.meta
     - Assets/SoundEffects/PressButton.wav
     - Assets/SoundEffects/PressButton.wav.meta
     - ProjectSettings/TagManager.asset
     - 
-    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

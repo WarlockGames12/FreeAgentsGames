@@ -57,13 +57,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerScript\JumpScript.cs" />
+    <Compile Include="Assets\Scripts\LevelScripts\RespawnScript.cs" />
     <Compile Include="Assets\Scripts\MainMenuScripts\HoverPlayer.cs" />
     <Compile Include="Assets\Scripts\PlayerScript\Camera_Follow.cs" />
+    <Compile Include="Assets\Scripts\MainMenuScripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\PlayerScript\Movement.cs" />
     <Compile Include="Assets\Scripts\MainMenuScripts\MainMenuScript.cs" />
     <Compile Include="Assets\Scripts\LevelScripts\CoinScript.cs" />
+    <Compile Include="Assets\Scripts\MainMenuScripts\PauseMenuButtonsScript.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\Fonts\OFL.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

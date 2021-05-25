@@ -7,13 +7,13 @@ public class MainMenuScript : MonoBehaviour
 {
     public void NewGame()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Level1"); //Play New Game
     }
 
 
     public void ExitGame()
     {
-        Debug.Log("This thing works if you wanna know");
+        Debug.Log("This thing works if you wanna know"); //Quit Game
         Application.Quit();
     }
 }

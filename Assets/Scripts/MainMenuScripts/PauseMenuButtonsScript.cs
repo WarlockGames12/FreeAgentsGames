@@ -5,17 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenuButtonsScript : MonoBehaviour
 {
-   
-   
-
+    
     public void BackToMenu()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("MainMenu"); //Go back to the main menu
     }
 
     public void ExitGame()
     {
-        Debug.Log("This thing works if you wanna know");
+        Debug.Log("This thing works if you wanna know"); //Quit Game
         Application.Quit();
     }
 }

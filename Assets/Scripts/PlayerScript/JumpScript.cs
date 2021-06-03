@@ -9,14 +9,13 @@ public class JumpScript : MonoBehaviour
     public bool canJump = true;
     public AudioSource JumpPlayer;
     public AudioSource LandPlayer;
-    public Camera firstPersonCamera;
-    public Camera JumpCamera;
+   
 
 
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody>();
-        ShowCloserView(); //start with the closerview
+        
     }
 
 
@@ -37,28 +36,15 @@ public class JumpScript : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             LandPlayer.Play();
-            ShowCloserView(); 
+           
         }
     }
     private void OnCollisionExit(Collision collision)
     {
         canJump = false;
-        ShowOverheadView();
+        
     }
    
-    public void ShowOverheadView()
-    {
-        //Show only the far away camera
-        firstPersonCamera.enabled = false;
-        JumpCamera.enabled = true;
-    }
-
-   
-    public void ShowCloserView()
-    {
-        //show the closer camera
-        firstPersonCamera.enabled = true;
-        JumpCamera.enabled = false;
-    }
+    
 
 }

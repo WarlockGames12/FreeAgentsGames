@@ -20,11 +20,60 @@ MonoBehaviour:
     - Assets/Animations/3DAnimations/CoinAnimation.anim.meta
     - Assets/Animations/3DAnimations/Cylinder.controller
     - Assets/Animations/3DAnimations/Cylinder.controller.meta
+    - Assets/CameraFollow2ndCam.cs
+    - Assets/CameraFollow2ndCam.cs.meta
+    - Assets/Enviorement Assets.meta
+    - Assets/Enviorement Assets/platform_1.png
+    - Assets/Enviorement Assets/platform_1.png.meta
+    - Assets/Enviorement Assets/platform_10.png
+    - Assets/Enviorement Assets/platform_10.png.meta
+    - Assets/Enviorement Assets/platform_2.png
+    - Assets/Enviorement Assets/platform_2.png.meta
+    - Assets/Enviorement Assets/platform_3.png
+    - Assets/Enviorement Assets/platform_3.png.meta
+    - Assets/Enviorement Assets/platform_4.png
+    - Assets/Enviorement Assets/platform_4.png.meta
+    - Assets/Enviorement Assets/platform_5.png
+    - Assets/Enviorement Assets/platform_5.png.meta
+    - Assets/Enviorement Assets/platform_6.png
+    - Assets/Enviorement Assets/platform_6.png.meta
+    - Assets/Enviorement Assets/platform_7.png
+    - Assets/Enviorement Assets/platform_7.png.meta
+    - Assets/Enviorement Assets/platform_8.png
+    - Assets/Enviorement Assets/platform_8.png.meta
+    - Assets/Enviorement Assets/platform_9.png
+    - Assets/Enviorement Assets/platform_9.png.meta
+    - Assets/Enviorement Assets/props_1.png
+    - Assets/Enviorement Assets/props_1.png.meta
+    - Assets/Enviorement Assets/props_10.png
+    - Assets/Enviorement Assets/props_10.png.meta
+    - Assets/Enviorement Assets/props_2.png
+    - Assets/Enviorement Assets/props_2.png.meta
+    - Assets/Enviorement Assets/props_3.png
+    - Assets/Enviorement Assets/props_3.png.meta
+    - Assets/Enviorement Assets/props_4.png
+    - Assets/Enviorement Assets/props_4.png.meta
+    - Assets/Enviorement Assets/props_5.png
+    - Assets/Enviorement Assets/props_5.png.meta
+    - Assets/Enviorement Assets/props_6.png
+    - Assets/Enviorement Assets/props_6.png.meta
+    - Assets/Enviorement Assets/props_7.png
+    - Assets/Enviorement Assets/props_7.png.meta
+    - Assets/Enviorement Assets/props_8.png
+    - Assets/Enviorement Assets/props_8.png.meta
+    - Assets/Enviorement Assets/props_9.png
+    - Assets/Enviorement Assets/props_9.png.meta
     - Assets/Fonts.meta
     - Assets/Fonts/Itim-Regular.ttf
     - Assets/Fonts/Itim-Regular.ttf.meta
     - Assets/Fonts/OFL.txt
     - Assets/Fonts/OFL.txt.meta
+    - Assets/Logo.meta
+    - Assets/Logo/Naamloos-2.png
+    - Assets/Logo/Naamloos-2.png.meta
+    - Assets/Music.meta
+    - Assets/Music/ChillAMB1.mp3
+    - Assets/Music/ChillAMB1.mp3.meta
     - Assets/Prefabs.meta
     - Assets/Prefabs/MainMenu.prefab
     - Assets/Prefabs/MainMenu.prefab.meta
@@ -50,6 +99,10 @@ MonoBehaviour:
     - Assets/Scripts/MainMenuScripts/PauseMenu.cs.meta
     - Assets/Scripts/MainMenuScripts/PauseMenuButtonsScript.cs
     - Assets/Scripts/MainMenuScripts/PauseMenuButtonsScript.cs.meta
+    - Assets/Scripts/MainMenuScripts/SliderAudio.cs
+    - Assets/Scripts/MainMenuScripts/SliderAudio.cs.meta
+    - Assets/Scripts/MainMenuScripts/VolumeScenes.cs
+    - Assets/Scripts/MainMenuScripts/VolumeScenes.cs.meta
     - Assets/Scripts/PlayerScript.meta
     - Assets/Scripts/PlayerScript/Camera_Follow.cs
     - Assets/Scripts/PlayerScript/Camera_Follow.cs.meta
@@ -70,9 +123,10 @@ MonoBehaviour:
     - Assets/SoundEffects/PlayerDeath.wav.meta
     - Assets/SoundEffects/PressButton.wav
     - Assets/SoundEffects/PressButton.wav.meta
+    - ProjectSettings/ProjectSettings.asset
     - ProjectSettings/TagManager.asset
     - 
-    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

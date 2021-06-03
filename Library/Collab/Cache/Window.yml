@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - .collabignore
     - Assets/Animations.meta
     - Assets/Animations/3DAnimations.meta
     - Assets/Animations/3DAnimations/CoinAnimation.anim
@@ -57,9 +58,150 @@ MonoBehaviour:
     - Assets/SoundEffects/JumpPlayer.wav.meta
     - Assets/SoundEffects/PressButton.wav
     - Assets/SoundEffects/PressButton.wav.meta
+    - Assets/Sprites.meta
+    - Assets/Sprites/Materials.meta
+    - Assets/Sprites/Materials/PlatformZonderShit_1.mat
+    - Assets/Sprites/Materials/PlatformZonderShit_1.mat.meta
+    - Assets/Sprites/Materials/PlatformZonderShit_10.mat
+    - Assets/Sprites/Materials/PlatformZonderShit_10.mat.meta
+    - Assets/Sprites/Materials/PlatformZonderShit_2.mat
+    - Assets/Sprites/Materials/PlatformZonderShit_2.mat.meta
+    - Assets/Sprites/Materials/PlatformZonderShit_3.mat
+    - Assets/Sprites/Materials/PlatformZonderShit_3.mat.meta
+    - Assets/Sprites/Materials/PlatformZonderShit_4.mat
+    - Assets/Sprites/Materials/PlatformZonderShit_4.mat.meta
+    - Assets/Sprites/Materials/PlatformZonderShit_5.mat
+    - Assets/Sprites/Materials/PlatformZonderShit_5.mat.meta
+    - Assets/Sprites/Materials/PlatformZonderShit_6.mat
+    - Assets/Sprites/Materials/PlatformZonderShit_6.mat.meta
+    - Assets/Sprites/Materials/PlatformZonderShit_7.mat
+    - Assets/Sprites/Materials/PlatformZonderShit_7.mat.meta
+    - Assets/Sprites/Materials/PlatformZonderShit_8.mat
+    - Assets/Sprites/Materials/PlatformZonderShit_8.mat.meta
+    - Assets/Sprites/Materials/PlatformZonderShit_9.mat
+    - Assets/Sprites/Materials/PlatformZonderShit_9.mat.meta
+    - Assets/Sprites/Materials/Platform_1.mat
+    - Assets/Sprites/Materials/Platform_1.mat.meta
+    - Assets/Sprites/Materials/Platform_10.mat
+    - Assets/Sprites/Materials/Platform_10.mat.meta
+    - Assets/Sprites/Materials/Platform_2.mat
+    - Assets/Sprites/Materials/Platform_2.mat.meta
+    - Assets/Sprites/Materials/Platform_3.mat
+    - Assets/Sprites/Materials/Platform_3.mat.meta
+    - Assets/Sprites/Materials/Platform_4.mat
+    - Assets/Sprites/Materials/Platform_4.mat.meta
+    - Assets/Sprites/Materials/Platform_5.mat
+    - Assets/Sprites/Materials/Platform_5.mat.meta
+    - Assets/Sprites/Materials/Platform_6.mat
+    - Assets/Sprites/Materials/Platform_6.mat.meta
+    - Assets/Sprites/Materials/Platform_7.mat
+    - Assets/Sprites/Materials/Platform_7.mat.meta
+    - Assets/Sprites/Materials/Platform_8.mat
+    - Assets/Sprites/Materials/Platform_8.mat.meta
+    - Assets/Sprites/Materials/Platform_9.mat
+    - Assets/Sprites/Materials/Platform_9.mat.meta
+    - Assets/Sprites/Materials/Prop_1.mat
+    - Assets/Sprites/Materials/Prop_1.mat.meta
+    - Assets/Sprites/Materials/Prop_10.mat
+    - Assets/Sprites/Materials/Prop_10.mat.meta
+    - Assets/Sprites/Materials/Prop_2.mat
+    - Assets/Sprites/Materials/Prop_2.mat.meta
+    - Assets/Sprites/Materials/Prop_3.mat
+    - Assets/Sprites/Materials/Prop_3.mat.meta
+    - Assets/Sprites/Materials/Prop_4.mat
+    - Assets/Sprites/Materials/Prop_4.mat.meta
+    - Assets/Sprites/Materials/Prop_5.mat
+    - Assets/Sprites/Materials/Prop_5.mat.meta
+    - Assets/Sprites/Materials/Prop_6.mat
+    - Assets/Sprites/Materials/Prop_6.mat.meta
+    - Assets/Sprites/Materials/Prop_7.mat
+    - Assets/Sprites/Materials/Prop_7.mat.meta
+    - Assets/Sprites/Materials/Prop_8.mat
+    - Assets/Sprites/Materials/Prop_8.mat.meta
+    - Assets/Sprites/Materials/Prop_9.mat
+    - Assets/Sprites/Materials/Prop_9.mat.meta
+    - Assets/Sprites/platform_ zonder shit_1.png
+    - Assets/Sprites/platform_ zonder shit_1.png.meta
+    - Assets/Sprites/platform_ zonder shit_10.png
+    - Assets/Sprites/platform_ zonder shit_10.png.meta
+    - Assets/Sprites/platform_ zonder shit_2.png
+    - Assets/Sprites/platform_ zonder shit_2.png.meta
+    - Assets/Sprites/platform_ zonder shit_3.png
+    - Assets/Sprites/platform_ zonder shit_3.png.meta
+    - Assets/Sprites/platform_ zonder shit_4.png
+    - Assets/Sprites/platform_ zonder shit_4.png.meta
+    - Assets/Sprites/platform_ zonder shit_5.png
+    - Assets/Sprites/platform_ zonder shit_5.png.meta
+    - Assets/Sprites/platform_ zonder shit_6.png
+    - Assets/Sprites/platform_ zonder shit_6.png.meta
+    - Assets/Sprites/platform_ zonder shit_7.png
+    - Assets/Sprites/platform_ zonder shit_7.png.meta
+    - Assets/Sprites/platform_ zonder shit_8.png
+    - Assets/Sprites/platform_ zonder shit_8.png.meta
+    - Assets/Sprites/platform_ zonder shit_9.png
+    - Assets/Sprites/platform_ zonder shit_9.png.meta
+    - Assets/Sprites/platform_1 (1).png
+    - Assets/Sprites/platform_1 (1).png.meta
+    - Assets/Sprites/platform_10.png
+    - Assets/Sprites/platform_10.png.meta
+    - Assets/Sprites/platform_2 (1).png
+    - Assets/Sprites/platform_2 (1).png.meta
+    - Assets/Sprites/platform_3 (1).png
+    - Assets/Sprites/platform_3 (1).png.meta
+    - Assets/Sprites/platform_4 (1).png
+    - Assets/Sprites/platform_4 (1).png.meta
+    - Assets/Sprites/platform_5.png
+    - Assets/Sprites/platform_5.png.meta
+    - Assets/Sprites/platform_6.png
+    - Assets/Sprites/platform_6.png.meta
+    - Assets/Sprites/platform_7.png
+    - Assets/Sprites/platform_7.png.meta
+    - Assets/Sprites/platform_8.png
+    - Assets/Sprites/platform_8.png.meta
+    - Assets/Sprites/platform_9.png
+    - Assets/Sprites/platform_9.png.meta
+    - Assets/Sprites/props_1.png
+    - Assets/Sprites/props_1.png.meta
+    - Assets/Sprites/props_10.png
+    - Assets/Sprites/props_10.png.meta
+    - Assets/Sprites/props_2.png
+    - Assets/Sprites/props_2.png.meta
+    - Assets/Sprites/props_3.png
+    - Assets/Sprites/props_3.png.meta
+    - Assets/Sprites/props_4.png
+    - Assets/Sprites/props_4.png.meta
+    - Assets/Sprites/props_5.png
+    - Assets/Sprites/props_5.png.meta
+    - Assets/Sprites/props_6.png
+    - Assets/Sprites/props_6.png.meta
+    - Assets/Sprites/props_7.png
+    - Assets/Sprites/props_7.png.meta
+    - Assets/Sprites/props_8.png
+    - Assets/Sprites/props_8.png.meta
+    - Assets/Sprites/props_9.png
+    - Assets/Sprites/props_9.png.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
     - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
     - 
-    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

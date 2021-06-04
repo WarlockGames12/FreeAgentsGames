@@ -7,13 +7,13 @@ public class SliderAudio : MonoBehaviour
 {
     public AudioClip[] soundtrack;  //Make a list of the soundtracks
     public Slider volumeSlider; //Choose the slider
-    public static float PlayerVolume;
+    public static float PlayerVolume = 1;
     public AudioSource audioSource;
 
 
     public void ChangeVolume()
     {
-        PlayerVolume = volumeSlider.value;
+        AudioListener.volume = volumeSlider.value;
     }
 
     void Awake()

@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\MainMenuScripts\SliderAudio.cs" />
     <Compile Include="Assets\Scripts\PlayerScript\JumpScript.cs" />
+    <Compile Include="Assets\Scripts\PlayerScript\CameraFollow2ndCam.cs" />
     <Compile Include="Assets\Scripts\LevelScripts\RespawnScript.cs" />
     <Compile Include="Assets\Scripts\MainMenuScripts\HoverPlayer.cs" />
     <Compile Include="Assets\Scripts\PlayerScript\Camera_Follow.cs" />
@@ -67,7 +68,6 @@
     <Compile Include="Assets\Scripts\MainMenuScripts\MainMenuScript.cs" />
     <Compile Include="Assets\Scripts\MainMenuScripts\PauseMenuButtonsScript.cs" />
     <Compile Include="Assets\Scripts\LevelScripts\CoinScript.cs" />
-    <Compile Include="Assets\CameraFollow2ndCam.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Fonts\OFL.txt" />

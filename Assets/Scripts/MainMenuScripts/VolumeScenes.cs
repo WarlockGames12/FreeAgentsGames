@@ -10,6 +10,10 @@ public class VolumeScenes : MonoBehaviour
         GetComponent<AudioSource>().volume = SliderAudio.PlayerVolume; //The slider will effect other scenes
 
     }
+    private void Awake()
+    {
+        DontDestroyOnLoad(transform.gameObject);
+    }
 
- 
+
 }

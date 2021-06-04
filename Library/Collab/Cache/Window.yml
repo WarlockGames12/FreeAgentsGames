@@ -20,8 +20,6 @@ MonoBehaviour:
     - Assets/Animations/3DAnimations/CoinAnimation.anim.meta
     - Assets/Animations/3DAnimations/Cylinder.controller
     - Assets/Animations/3DAnimations/Cylinder.controller.meta
-    - Assets/CameraFollow2ndCam.cs
-    - Assets/CameraFollow2ndCam.cs.meta
     - Assets/Enviorement Assets.meta
     - Assets/Enviorement Assets/platform_1.png
     - Assets/Enviorement Assets/platform_1.png.meta
@@ -104,6 +102,8 @@ MonoBehaviour:
     - Assets/Scripts/MainMenuScripts/VolumeScenes.cs
     - Assets/Scripts/MainMenuScripts/VolumeScenes.cs.meta
     - Assets/Scripts/PlayerScript.meta
+    - Assets/Scripts/PlayerScript/CameraFollow2ndCam.cs
+    - Assets/Scripts/PlayerScript/CameraFollow2ndCam.cs.meta
     - Assets/Scripts/PlayerScript/Camera_Follow.cs
     - Assets/Scripts/PlayerScript/Camera_Follow.cs.meta
     - Assets/Scripts/PlayerScript/JumpScript.cs

@@ -22,11 +22,11 @@ public class PauseMenu : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape) && GameIsPaused == true)
         {
             Resume(); //if the Pausemenu = true, Resume game
-           
+            Debug.Log("werk plz");
         }
         else if (Input.GetKeyDown(KeyCode.Escape) && GameIsPaused == false)
         {
-            
+            Debug.Log("texture");
             Pause(); //if the Pausemenu = false, pause game
         }
     }

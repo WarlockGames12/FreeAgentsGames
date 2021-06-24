@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
+    public float Health = 100f;
     public float movementSpeed = 3;
 
     void Start()

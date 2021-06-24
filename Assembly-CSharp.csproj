@@ -56,21 +56,51 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\LevelScripts\PlayRandomAudio.cs" />
     <Compile Include="Assets\Scripts\MainMenuScripts\SliderAudio.cs" />
+    <Compile Include="Assets\Scripts\LevelScripts\HealthBar.cs" />
+    <Compile Include="Assets\Scripts\PlayerScript\HealthbarHandler.cs" />
     <Compile Include="Assets\Scripts\PlayerScript\JumpScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScript\CameraFollow2ndCam.cs" />
     <Compile Include="Assets\Scripts\LevelScripts\RespawnScript.cs" />
     <Compile Include="Assets\Scripts\MainMenuScripts\HoverPlayer.cs" />
     <Compile Include="Assets\Scripts\PlayerScript\Camera_Follow.cs" />
+    <Compile Include="Assets\Scripts\LevelScripts\DialogueSystem.cs" />
     <Compile Include="Assets\Scripts\MainMenuScripts\VolumeScenes.cs" />
     <Compile Include="Assets\Scripts\MainMenuScripts\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\LevelScripts\GetHitByEnemy.cs" />
+    <Compile Include="Assets\Scripts\LevelScripts\InteractingToThings.cs" />
     <Compile Include="Assets\Scripts\PlayerScript\Movement.cs" />
     <Compile Include="Assets\Scripts\MainMenuScripts\MainMenuScript.cs" />
     <Compile Include="Assets\Scripts\MainMenuScripts\PauseMenuButtonsScript.cs" />
     <Compile Include="Assets\Scripts\LevelScripts\CoinScript.cs" />
+    <Compile Include="Assets\Scripts\LeftToRight.cs" />
+    <Compile Include="Assets\Scripts\PlayerScript\Test.cs" />
+    <Compile Include="Assets\ContinueGame.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\Fonts\OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

@@ -7,7 +7,7 @@ public class MainMenuScript : MonoBehaviour
 {
     public void NewGame()
     {
-        SceneManager.LoadScene("Level1"); //Play New Game
+        SceneManager.LoadScene("Dialogue"); //Play New Game
     }
 
 

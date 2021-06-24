@@ -5,8 +5,13 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     public float movementSpeed = 3;
-    
-    void Update()
+
+    void Start()
+    {
+        LateUpdate();
+    }
+
+    void LateUpdate()
     {
         if (Input.GetKey(KeyCode.A))
         {

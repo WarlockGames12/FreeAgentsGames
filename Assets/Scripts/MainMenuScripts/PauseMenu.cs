@@ -6,7 +6,7 @@ public class PauseMenu : MonoBehaviour
 {
     public static bool GameIsPaused = false; //make sure to make the UI is transparent
     public GameObject pauseMenuUI; //make a gameobject of the pausemenu
-    public AudioSource auPausing;
+   
 
 
     void Start()
@@ -21,12 +21,12 @@ public class PauseMenu : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Escape) && GameIsPaused == true)
         {
-            auPausing.Play(); //play sound effect if the gameispaused is true
             Resume(); //if the Pausemenu = true, Resume game
+           
         }
         else if (Input.GetKeyDown(KeyCode.Escape) && GameIsPaused == false)
         {
-            auPausing.Play(); //play sound effect if the gameispaused is false
+            
             Pause(); //if the Pausemenu = false, pause game
         }
     }

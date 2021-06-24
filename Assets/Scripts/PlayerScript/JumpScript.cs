@@ -15,7 +15,6 @@ public class JumpScript : MonoBehaviour
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody>();
-        
     }
 
 

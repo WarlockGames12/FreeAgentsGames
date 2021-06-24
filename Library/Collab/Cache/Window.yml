@@ -20,6 +20,8 @@ MonoBehaviour:
     - Assets/Animations/3DAnimations/CoinAnimation.anim.meta
     - Assets/Animations/3DAnimations/Cylinder.controller
     - Assets/Animations/3DAnimations/Cylinder.controller.meta
+    - Assets/ContinueGame.cs
+    - Assets/ContinueGame.cs.meta
     - Assets/Enviorement Assets.meta
     - Assets/Enviorement Assets/platform_1.png
     - Assets/Enviorement Assets/platform_1.png.meta
@@ -73,19 +75,35 @@ MonoBehaviour:
     - Assets/Music/ChillAMB1.mp3
     - Assets/Music/ChillAMB1.mp3.meta
     - Assets/Prefabs.meta
+    - Assets/Prefabs/Canvas.prefab
+    - Assets/Prefabs/Canvas.prefab.meta
     - Assets/Prefabs/MainMenu.prefab
     - Assets/Prefabs/MainMenu.prefab.meta
     - Assets/Scenes.meta
     - Assets/Scenes/Levels.meta
+    - Assets/Scenes/Levels/Dialogue.unity
+    - Assets/Scenes/Levels/Dialogue.unity.meta
     - Assets/Scenes/Levels/Level1.unity
     - Assets/Scenes/Levels/Level1.unity.meta
     - Assets/Scenes/Menu.meta
     - Assets/Scenes/Menu/MainMenu.unity
     - Assets/Scenes/Menu/MainMenu.unity.meta
     - Assets/Scripts.meta
+    - Assets/Scripts/LeftToRight.cs
+    - Assets/Scripts/LeftToRight.cs.meta
     - Assets/Scripts/LevelScripts.meta
     - Assets/Scripts/LevelScripts/CoinScript.cs
     - Assets/Scripts/LevelScripts/CoinScript.cs.meta
+    - Assets/Scripts/LevelScripts/DialogueSystem.cs
+    - Assets/Scripts/LevelScripts/DialogueSystem.cs.meta
+    - Assets/Scripts/LevelScripts/GetHitByEnemy.cs
+    - Assets/Scripts/LevelScripts/GetHitByEnemy.cs.meta
+    - Assets/Scripts/LevelScripts/HealthBar.cs
+    - Assets/Scripts/LevelScripts/HealthBar.cs.meta
+    - Assets/Scripts/LevelScripts/InteractingToThings.cs
+    - Assets/Scripts/LevelScripts/InteractingToThings.cs.meta
+    - Assets/Scripts/LevelScripts/PlayRandomAudio.cs
+    - Assets/Scripts/LevelScripts/PlayRandomAudio.cs.meta
     - Assets/Scripts/LevelScripts/RespawnScript.cs
     - Assets/Scripts/LevelScripts/RespawnScript.cs.meta
     - Assets/Scripts/MainMenuScripts.meta
@@ -106,10 +124,14 @@ MonoBehaviour:
     - Assets/Scripts/PlayerScript/CameraFollow2ndCam.cs.meta
     - Assets/Scripts/PlayerScript/Camera_Follow.cs
     - Assets/Scripts/PlayerScript/Camera_Follow.cs.meta
+    - Assets/Scripts/PlayerScript/HealthbarHandler.cs
+    - Assets/Scripts/PlayerScript/HealthbarHandler.cs.meta
     - Assets/Scripts/PlayerScript/JumpScript.cs
     - Assets/Scripts/PlayerScript/JumpScript.cs.meta
     - Assets/Scripts/PlayerScript/Movement.cs
     - Assets/Scripts/PlayerScript/Movement.cs.meta
+    - Assets/Scripts/PlayerScript/Test.cs
+    - Assets/Scripts/PlayerScript/Test.cs.meta
     - Assets/SoundEffects.meta
     - Assets/SoundEffects/86005__nextmaking__landing-on-the-ground.aiff
     - Assets/SoundEffects/86005__nextmaking__landing-on-the-ground.aiff.meta
@@ -123,10 +145,122 @@ MonoBehaviour:
     - Assets/SoundEffects/PlayerDeath.wav.meta
     - Assets/SoundEffects/PressButton.wav
     - Assets/SoundEffects/PressButton.wav.meta
+    - Assets/TextMesh Pro.meta
+    - Assets/TextMesh Pro/Documentation.meta
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+    - Assets/TextMesh Pro/Fonts.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+    - Assets/TextMesh Pro/Resources.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+    - Assets/TextMesh Pro/Shaders.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+    - Assets/TextMesh Pro/Sprites.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+    - Assets/TitleScreen.meta
+    - Assets/TitleScreen/BackgroundTitleScreen.png
+    - Assets/TitleScreen/BackgroundTitleScreen.png.meta
+    - Assets/TitleScreen/Exit Game.png
+    - Assets/TitleScreen/Exit Game.png.meta
+    - Assets/TitleScreen/GoBackToMenu.png
+    - Assets/TitleScreen/GoBackToMenu.png.meta
+    - Assets/TitleScreen/Naamloos-2.mp4
+    - Assets/TitleScreen/Naamloos-2.mp4.meta
+    - Assets/TitleScreen/PlayGame.png
+    - Assets/TitleScreen/PlayGame.png.meta
+    - Assets/TitleScreen/Settings.png
+    - Assets/TitleScreen/Settings.png.meta
+    - Assets/TitleScreen/space sterrenhemel.mp4
+    - Assets/TitleScreen/space sterrenhemel.mp4.meta
+    - Assets/UI.meta
+    - Assets/UI/Charakter hoofd.png
+    - Assets/UI/Charakter hoofd.png.meta
+    - Assets/UI/HealthBar.png
+    - Assets/UI/HealthBar.png.meta
+    - Assets/UI/Home.png
+    - Assets/UI/Home.png.meta
+    - Assets/UI/Kleur_health bar.png
+    - Assets/UI/Kleur_health bar.png.meta
+    - Assets/UI/Letters_Kega.png
+    - Assets/UI/Letters_Kega.png.meta
+    - Assets/UI/Naamloos-1.png
+    - Assets/UI/Naamloos-1.png.meta
+    - Assets/UI/PauseMenu.png
+    - Assets/UI/PauseMenu.png.meta
+    - Assets/UI/QuitGame.png
+    - Assets/UI/QuitGame.png.meta
+    - Assets/UI/Resume.png
+    - Assets/UI/Resume.png.meta
+    - Assets/UI/Zwarte outline_health bar.png
+    - Assets/UI/Zwarte outline_health bar.png.meta
+    - Assets/UI/unknown (15).png
+    - Assets/UI/unknown (15).png.meta
+    - ProjectSettings/EditorBuildSettings.asset
     - ProjectSettings/ProjectSettings.asset
     - ProjectSettings/TagManager.asset
     - 
-    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

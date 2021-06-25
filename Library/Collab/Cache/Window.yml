@@ -20,6 +20,8 @@ MonoBehaviour:
     - Assets/Animations/3DAnimations/CoinAnimation.anim.meta
     - Assets/Animations/3DAnimations/Cylinder.controller
     - Assets/Animations/3DAnimations/Cylinder.controller.meta
+    - Assets/BackToMenu.cs
+    - Assets/BackToMenu.cs.meta
     - Assets/Canvas (1).prefab
     - Assets/Canvas (1).prefab.meta
     - Assets/ContinueGame.cs
@@ -254,19 +256,39 @@ MonoBehaviour:
     - Assets/UI/Naamloos-1.png.meta
     - Assets/UI/PauseMenu.png
     - Assets/UI/PauseMenu.png.meta
+    - Assets/UI/PauseMenu.prefab
+    - Assets/UI/PauseMenu.prefab.meta
+    - Assets/UI/Player.prefab
+    - Assets/UI/Player.prefab.meta
     - Assets/UI/QuitGame.png
     - Assets/UI/QuitGame.png.meta
     - Assets/UI/Resume.png
     - Assets/UI/Resume.png.meta
+    - Assets/UI/WinScreenBalk.png
+    - Assets/UI/WinScreenBalk.png.meta
+    - Assets/UI/Win_screen_Letters_YOU_WON.png
+    - Assets/UI/Win_screen_Letters_YOU_WON.png.meta
+    - Assets/UI/Win_screen_Paarse_balk.png
+    - Assets/UI/Win_screen_Paarse_balk.png.meta
+    - Assets/UI/Win_screen_letter_back_to_menu.png
+    - Assets/UI/Win_screen_letter_back_to_menu.png.meta
+    - Assets/UI/Win_screen_planten_buitenkant.png
+    - Assets/UI/Win_screen_planten_buitenkant.png.meta
     - Assets/UI/Zwarte outline_health bar.png
     - Assets/UI/Zwarte outline_health bar.png.meta
+    - Assets/UI/backtoMeny.png
+    - Assets/UI/backtoMeny.png.meta
     - Assets/UI/unknown (15).png
     - Assets/UI/unknown (15).png.meta
+    - Assets/UI/win_screen_achtergrond.png
+    - Assets/UI/win_screen_achtergrond.png.meta
+    - Assets/WinScript.cs
+    - Assets/WinScript.cs.meta
     - ProjectSettings/EditorBuildSettings.asset
     - ProjectSettings/ProjectSettings.asset
     - ProjectSettings/TagManager.asset
     - 
-    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

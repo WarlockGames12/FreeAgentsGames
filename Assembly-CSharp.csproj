@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\HealthBarScript.cs" />
     <Compile Include="Assets\Scripts\LevelScripts\PlayRandomAudio.cs" />
     <Compile Include="Assets\Scripts\MainMenuScripts\SliderAudio.cs" />
     <Compile Include="Assets\Scripts\LevelScripts\HealthBar.cs" />
@@ -77,7 +78,8 @@
     <Compile Include="Assets\Scripts\LevelScripts\CoinScript.cs" />
     <Compile Include="Assets\Scripts\LeftToRight.cs" />
     <Compile Include="Assets\Scripts\PlayerScript\Test.cs" />
-    <Compile Include="Assets\HealthBarScript.cs" />
+    <Compile Include="Assets\WinScript.cs" />
+    <Compile Include="Assets\BackToMenu.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

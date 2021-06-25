@@ -9,6 +9,7 @@ TagManager:
   - Item
   - Enemy
   - Goonki
+  - Win
   layers:
   - Default
   - TransparentFX
